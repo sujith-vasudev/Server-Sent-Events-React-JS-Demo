@@ -1,0 +1,93 @@
+.sse_landing {
+    position: relative;
+    height: 96vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(175, 189, 238);
+  }
+
+.sse_landing .container{
+    margin: 10px;
+    height: 750px;
+    width: 90%;
+    background-color: rgb(226, 229, 240);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 8px 2px 44px 1px rgb(136, 160, 247);
+
+}
+
+.container div div {
+    text-align: center;
+}
+.sse_landing .container div {
+    width: 100%;
+    height: 30px;
+}
+
+.sse_landing .container div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+} 
+
+.sse_landing .container div:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} 
+#file {
+    height: 60px;
+    width: 45%;
+}
+
+
+  
+  .progress {
+    background: #cbeeedf1;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 100px;
+    margin: 60px;
+    
+  }
+  
+  .progress-value {
+    /* animation: linear 3s normal forwards; */
+    box-shadow: 0 20px 40px -10px #3ba6ee;
+    border-radius: 100px;
+    background: #36e7de;
+    height: 50px;
+    width: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+
+  #btn {
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    border: 5px solid  rgb(73, 106, 252);
+    background-color: rgb(73, 106, 252);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+  }
+  #btn:hover{
+    cursor: pointer;
+    background-color: rgb(25, 65, 241);
+    box-shadow: 0 10px 10px -20px #3ba6ee;
+    border: 5px solid   rgb(25, 65, 241);
+  }

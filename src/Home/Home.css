@@ -1,0 +1,19 @@
+h1 {
+    padding-left: 450px;
+    padding-top: 250px;
+    font-size: 8vh;
+    color: #513ff3;
+    font-style: oblique;
+    text-shadow: 3px 1px 1px #513ff3;
+    align-items: center;
+    
+}
+
+h3 {
+    align-items: center;
+    margin: 150px;
+    font-size: 4vh;
+    font-weight: 400;
+    font-style: italic;
+    color: #6353f7;
+}
